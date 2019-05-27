@@ -1,4 +1,4 @@
-#h1 English description below
+# English description below
 
 # Zadania rekrutacyjne
 
@@ -41,7 +41,7 @@ Wszystkie funkcje zostały stworzone tak aby można było je łączyć między s
 podpunkt 2: funkcja sortData wykorzystuje jako parametr do sortowania funkcję zwracającą parametr ustawiony domyślnie na 'score' jeżeli podany parametr będzie niewłaściwy
 podpunkt 3: do sortowania użyto zewnętrznej funkcji compare.
 
-#h2 English description:
+# English description:
 Those files are solution of tasks for intern position in ProfilSoftware company in Gdańsk Poland.
 In first task i was able to fetch data from reddit api and convert it to:
 {
