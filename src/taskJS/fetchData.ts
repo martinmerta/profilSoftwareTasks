@@ -15,6 +15,7 @@ const fetchData = (): Promise<any> =>
           dateToSort: data.created
         })) as Promise<any>
     )
+    .then(posts => ({ posts: [posts], count: posts.length }))
     .catch(err => {
       throw new TypeError(err);
     });

@@ -1,5 +1,5 @@
 function showToUser(data) {
-  data.map(({ title, upvotes, score, num_comments, created }) => {
+  data.slice(0, 9).map(({ title, upvotes, score, num_comments, created }) => {
     return {
       title,
       upvotes,
